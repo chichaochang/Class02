@@ -193,13 +193,16 @@
 				TargetAttributes = {
 					FF557220225AF4700023EF6F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					FF557234225AF47A0023EF6F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = FF557220225AF4700023EF6F;
 					};
 					FF55723F225AF47A0023EF6F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = FF557220225AF4700023EF6F;
 					};
 				};
@@ -440,7 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.Class02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +460,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.Class02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -476,7 +479,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.Class02Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Class02.app/Class02";
 			};
@@ -496,7 +499,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.Class02Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Class02.app/Class02";
 			};
@@ -515,7 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.Class02UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Class02;
 			};
@@ -534,7 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.Class02UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Class02;
 			};
