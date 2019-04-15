@@ -17,10 +17,10 @@ class ViewController: UIViewController {
         let a = add(a: 8, b: 5)
         
         if a > 0 {
-            print( "a = \( a )")
+            print( "a 值為 \( a )")
         }
         else{
-            print("<=0")
+            print(" \( a )")
         }
         
 
