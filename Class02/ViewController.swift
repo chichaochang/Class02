@@ -14,16 +14,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let str : String = "0"
+        let a = add(a: 8, b: 5)
         
-        if let number = Int(str){
-            print( "number:\(number )")
+        if a > 0 {
+            print( "a = \( a )")
+        }
+        else{
+            print("<=0")
         }
         
-        func add(a: Int, b: Int) -> Int {
-            return a + b
-        }
+
+        
     }
     
+    func add(a: Int, b: Int) -> Int {
+        return a + b
+    }
+
 }
 
