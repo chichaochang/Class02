@@ -14,7 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // New comment
+        let str : String = "0"
+        
+        if let number = Int(str){
+            print( "number:\(number )")
+        }
+        
+        func add(a: Int, b: Int) -> Int {
+            return a + b
+        }
     }
     
 }
