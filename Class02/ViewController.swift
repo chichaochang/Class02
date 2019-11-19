@@ -22,9 +22,6 @@ class ViewController: UIViewController {
         else{
             print(" \( a )")
         }
-        
-
-        
     }
     
     func add(a: Int, b: Int) -> Int {
